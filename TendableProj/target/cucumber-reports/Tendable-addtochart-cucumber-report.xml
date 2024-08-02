@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="69.64" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Feature to test the tp level menu are Home, Our Story, Our Solution, and Why Tendable." name="Check all the menu button are working or not." time="42.664">
+<system-out><![CDATA[
+Given User on Tendable page.................................................passed
+When click the Home button..................................................passed
+And Click the Our Story.....................................................passed
+And Click the Our Solution button...........................................passed
+And Click Why Tendable button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the Mar" name="Check login with valid credential - Example #1.1" time="25.274">
+<system-out><![CDATA[
+Given User on Tendable Home page............................................passed
+When click the Contact Us button............................................passed
+And Click the contact button which from Marketing tag.......................passed
+And User enter the full name Iniyan.........................................passed
+And User enter the Organisation TCS.........................................passed
+And User enter the Phone Number 823834998...................................passed
+And User enter the email id iniyan@gmail.com................................passed
+And User skip to enter the input on Message box.............................passed
+And User click the i agree button...........................................passed
+And User click submit button................................................passed
+Then user got error message because not enter the value on Messsage box.....passed
+]]></system-out>
+</testcase>
+</testsuite>
